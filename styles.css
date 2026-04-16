@@ -396,24 +396,12 @@ ul {
     align-items: center;
 }
 
-.about-img-placeholder {
+.about-img {
     width: 100%;
     aspect-ratio: 4 / 5;
-    background: linear-gradient(135deg, var(--primary-light), #e0e7ff);
+    object-fit: cover;
     border-radius: var(--radius);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: 5rem;
     box-shadow: var(--shadow-xl);
-}
-
-.about-img-placeholder p {
-    font-size: 1.2rem;
-    color: var(--primary);
-    font-weight: 600;
-    margin-top: 16px;
 }
 
 .about-text h3 {
